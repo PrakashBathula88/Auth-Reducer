@@ -2,7 +2,7 @@ import { createStore } from "redux";
 
 const initalstate = { counter: 0 };
 
-const countreducer = (state = initalstate, action) => {
+  export  const countreducer = (state = initalstate, action) => {
   switch (action.type) {
     case "increment":
       return {
@@ -20,7 +20,7 @@ const countreducer = (state = initalstate, action) => {
     case "incrementby2":
       return {
         ...state,
-        couter: state.counter + 2,
+        couter: state.counter + 5,
       };
 
     case "Decrementby2":
