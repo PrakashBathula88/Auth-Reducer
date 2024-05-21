@@ -1,0 +1,32 @@
+.counter {
+    text-align: center;
+    /* margin: 20px; */
+   margin-left: 300px;
+}
+
+.counterDisplay {
+    font-size: 2em;
+    margin: 20px 0;
+    
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
